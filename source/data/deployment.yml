@@ -12,7 +12,7 @@ cephadm: true
 ceph_managed: false
 
 # Whether the OpenStack deployment includes Ironic for bare metal compute.
-ironic: false
+ironic: true
 
 # Whether Ironic automated cleaning is enabled.
 ironic_automated_cleaning: true
@@ -21,13 +21,13 @@ ironic_automated_cleaning: true
 kayobe_manages_physical_network: true
 
 # Whether the physical network is an EVPN fabric.
-physical_network_evpn: false
+physical_network_evpn: true
 
 # Whether the deployment includes Wazuh.
-wazuh: true
+wazuh: false
 
 # Whether the Wazuh deployment is managed via StackHPC.
-wazuh_managed: true
+wazuh_managed: false
 
 # Whether the Wazuh deployment is handled via Ansible.
-wazuh_ansible: true
+wazuh_ansible: false
