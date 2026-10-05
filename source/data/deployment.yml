@@ -17,6 +17,9 @@ ironic: true
 # Whether Ironic automated cleaning is enabled.
 ironic_automated_cleaning: true
 
+# Whether hypervisor to bare metal conversion via Ironic is supported.
+ironic_hypervisor_conversion: true
+
 # Whether Kayobe manages physical network devices.
 kayobe_manages_physical_network: true
 
