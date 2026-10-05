@@ -22,6 +22,7 @@ Contents
    working_with_kayobe
    access_to_services
    baremetal_management
+   baremetal_management_ironic_burn_in
    physical_network
 
 Indices and search

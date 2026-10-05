@@ -216,3 +216,7 @@ Considerations when booting baremetal compared to VMs
 
 - Instances take much longer to provision (expect at least 15 mins)
 - When booting an instance use one of the flavors that maps to a baremetal node via the RESOURCE_CLASS configured on the flavor.
+
+.. ifconfig:: deployment['ironic_hypervisor_conversion']
+
+  .. include:: baremetal_management_ironic_conversion.rst
